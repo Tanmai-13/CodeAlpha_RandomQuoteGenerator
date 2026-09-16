@@ -34,5 +34,5 @@ export const quotes: Quote[] = [
 /** Picks a random quote that is never the one currently displayed. */
 export function randomQuote(current?: Quote): Quote {
   const candidates = quotes.filter((q) => q.text !== current?.text);
-  return candidates[Math.floor(Math.random() * candidates.length)];
+  return candidates[Math.floor(Math.random() * candidates.length)]!;
 }
