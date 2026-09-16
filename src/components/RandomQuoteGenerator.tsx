@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { randomQuote, type Quote } from "@/data/quotes";
+import { quotes, randomQuote, type Quote } from "@/data/quotes";
 import { QuoteCard } from "@/components/QuoteCard";
 
 export function RandomQuoteGenerator() {
-  const [quote, setQuote] = useState<Quote>(() => randomQuote());
+  // Fixed first quote keeps server and client render in sync; random kicks in on click.
+  const [quote, setQuote] = useState<Quote>(quotes[0]!);
   const [animationKey, setAnimationKey] = useState(0);
 
   const showNewQuote = () => {
