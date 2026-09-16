@@ -1,24 +1,48 @@
-# Inspiring Quotes App
+# CodeAlpha Random Quote Generator
 
-Build the CodeAlpha Random Quote Generator: a clean, responsive React + TypeScript web app for Task 2 of the CodeAlpha App Development Internship. Include a heading 'Random Quote Generator' and subtitle 'Get inspired with a new quote.', a dedicated local dataset of 20+ meaningful quotes with author names (no external API), an attractive quote card displaying quote and author, a prominent 'New Quote' button with smooth quote transition animations that avoids repeating the current quote, responsive layout for desktop and mobile, and clean modular code.
+A clean and responsive **Random Quote Generator** developed as part of the **CodeAlpha App Development Internship – Task 2**.
 
-This project was built with [Lovable](https://lovable.dev).
+The application displays meaningful quotes with their authors and allows users to generate a new random quote with a single click.
 
-## Build with Lovable
+## Features
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/99cd19ef-ecfe-4065-9eeb-800229d93e64).
+- **Random Quote Display:** Shows a quote when the application opens.
+- **New Quote:** Generates a different quote with the click of a button.
+- **Author Display:** Clearly displays the author of each quote.
+- **Local Quote Dataset:** Contains 20+ meaningful quotes without depending on an external API.
+- **No Repeated Current Quote:** Avoids showing the same quote consecutively.
+- **Smooth Transitions:** Includes simple animations when changing quotes.
+- **Responsive Design:** Works on both desktop and mobile devices.
+- **Clean UI:** Simple, modern, and user-friendly interface.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## Technologies Used
+
+- React
+- TypeScript
+- HTML
+- CSS
+- Local Dataset
+- Lovable
+
+## Project Purpose
+
+This project was developed to practice:
+
+- React component development
+- State management
+- Event handling
+- Dynamic content rendering
+- Responsive web design
+- UI/UX development
+
+## Internship Task
+
+**CodeAlpha App Development Internship – Task 2: Random Quote Generator**
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+This project was developed using **Lovable** and synchronized with GitHub for source-code management and version control.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+---
+
+**Repository:** `CodeAlpha_RandomQuoteGenerator`
